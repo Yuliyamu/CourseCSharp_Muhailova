@@ -14,14 +14,12 @@ public class MainClass
         var bus1 = new Bus()
         {
             Driver = driver3,
-            conductor = conductor,
-            km = 1000
+            conductor = conductor
         };
 
         var bus2 = new Bus()
         {
-            Driver = driver4,
-            km = 2000
+            Driver = driver4
         };
 
         BusInfo(bus1);
